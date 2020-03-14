@@ -62,7 +62,7 @@ Here is the content of the "JavaGeomDemo" application, that can be found in the 
   		
           // Compute a median line, and draw it
           StraightLine2D line2 = StraightLine2D.createMedian(p3, p4);
-          p4.draw(g2, 2);
+          p3.draw(g2, 2);
           p4.draw(g2, 2);
           line2.clip(box).draw(g2);
   
